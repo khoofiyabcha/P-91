@@ -1,0 +1,45 @@
+<html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="login.css">
+
+<script src="game.js"></script>
+</head>
+
+<body background="gameBG.jpg" style="margin: 0px;">
+    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <div class="container"> 
+        <center>
+            <h1 id="gameHeading" style="background-color: antiquewhite; color:rebeccapurple; width: 37%; height: 45px; padding-top: 3px; border-radius: 10px;">Math Quiz Game!</h1>
+            <h2 id="questionTurn"></h2>
+            <h2 id="answerTurn"></h2>
+            <div id="output">
+              
+            </div>  
+            <h3>Number 1</h3>
+            <input  id="number1" type="number" placeholder="Write Number 1" style="border-radius: 3px; width: 50%; border-width: 0px; height: 30px; font-size: 17px;">
+            <h3>Number 2</h3>
+            <input  id="number2" type="number" placeholder="Write Number 2" style="border-radius: 3px; width: 50%; border-width: 0px; height: 30px; font-size: 17px;">
+            <br>
+            <br>
+            <button id="send" onclick="send()" style="width: 30%;">Send</button>
+        </center>
+    </div>
+</body>

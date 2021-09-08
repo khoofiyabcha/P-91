@@ -1,0 +1,81 @@
+body {
+    background-size: cover;
+}
+.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.container {
+    margin-bottom: 300px;
+}
+#headingGame {
+	color: white;
+}
+img {
+	width: 200px;
+	height: 200px;
+}
+
+#loginBTN {
+   border-radius: 5px;
+   border-width: 0px;
+   height: 30px;
+   color: white;
+   background-color: #9c0606;
+}
+
+#loginBTN:hover {
+   background-color: #910000;
+}
+
+#send {
+	border-radius: 5px;
+	border-width: 0px;
+	height: 30px;
+	background-color: #06249c;
+	color: white;
+}
+ 
+#send:hover {
+	background-color: #001f91;
+}
+
+#gameHeading {
+	 font-family: "Rampart One";
+}
+
+#number1 {
+	 font-family: "Acme";
+}
+
+#number2 {
+	 font-family: "Acme";
+}
